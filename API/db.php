@@ -1,9 +1,8 @@
 <?php
-// Conexión a la base de datos
-$host = "localhost";
-$user = "root"; // Cambia según tu entorno
-$password = ""; // Contraseña de MySQL
-$database = "usuarios_db";
+$host = "containers-us-west-123.railway.app";
+$user = "root";
+$password = "TU_CONTRASEÑA";
+$database = "railway";
 
 $conn = new mysqli($host, $user, $password, $database);
 
