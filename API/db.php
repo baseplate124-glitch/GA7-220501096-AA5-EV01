@@ -2,7 +2,7 @@
 $host = "containers-us-west-123.railway.app";
 $user = "root";
 $password = "TU_CONTRASEÑA";
-$database = "railway";
+$database = "Ecoplay";
 
 $conn = new mysqli($host, $user, $password, $database);
 
